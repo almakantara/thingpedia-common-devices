@@ -1,5 +1,6 @@
 *~
 *.tmp
+*.tsv
 *.bak
 .idea/*
 config.mk
@@ -8,6 +9,7 @@ config.mk
 /tmp
 /*.tsv
 typecheck-cache.txt
+annotated.txt
 .ipynb_checkpoints
 *.ipynb
 
@@ -46,3 +48,4 @@ test/device-classes/*.tt
 workdir/
 export/
 dropped-log.tsv
+main/org.thingpedia.iot.battery/database-map.tsv
